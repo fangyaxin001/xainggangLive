@@ -1,0 +1,152 @@
+/* pages/writeReturnLogistics/writeReturnLogistics.wxss */
+/* 清除浮动 */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+image {
+  width: 100%;
+  height: 100%;
+}
+.page {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #f7f7f7;
+  overflow: auto;
+}
+
+/* 选择物流公司picker */
+.picker-box {
+  display: block;
+  background: #fff;
+  border-bottom: 1rpx solid #f2f2f2;
+}
+.select-show {
+  text-align: left;
+  padding: 25rpx 0;
+  margin: 0 20rpx;
+  box-sizing: border-box;
+}
+.select-text {
+  font-size: 30rpx;
+  float: left;
+}
+.select-results {
+  font-size: 28rpx;
+  color: #888;
+  float: right;
+  vertical-align: middle;
+}
+.select-box {
+  position: relative;
+}
+.select-reason {
+  padding-right: 30rpx;
+}
+.right-arrow {
+  display: block;
+  position: absolute;
+  right: 0;
+  top:33rpx;
+  width: 22rpx;
+  height: 22rpx;
+}
+.right-arrow  > image {
+  display: block;
+}
+
+/* 填写退货信息 */
+.write-msg {
+  background: #fff;
+  margin-bottom: 20rpx;
+}
+
+.item-num {
+  background: #fff;
+  border-bottom: 1rpx solid #f2f2f2;
+  padding: 10px 20rpx;
+  font-size: 30rpx;
+}
+.item-num-tit {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 40rpx;
+}
+.upload-tit {
+  vertical-align: top;
+}
+.item-num-num {
+  display: inline-block;
+  vertical-align: middle;
+  width: 70%;
+}
+
+/* 订单状态 */
+.order-status {
+  padding: 20rpx;
+  background: #fff;
+  border-bottom: 1rpx solid #f2f2f2;
+}
+/* 上传照片 */
+.upload-img {
+  display: inline-block;
+  width: 72%;
+}
+.upload-tips {
+  font-size: 26rpx;
+  color: #aaa;
+  margin-bottom: 1em;
+}
+/* 缩略图 */
+.question-images {
+  display: inline-block;
+  vertical-align: middle;
+}
+.q-image-wrap {
+  position: relative;
+  margin-right: 15rpx;
+  display: inline-block;
+  margin-bottom: 10rpx;
+}
+.q-image {
+  width: 110rpx;
+  height: 110rpx;
+  background: #eee;
+}
+.q-image-remover {
+  position: absolute;
+  right: -6rpx;
+  top: -6rpx;
+  width: 30rpx;
+  height: 30rpx;
+  text-align: center;
+  font-size: 23rpx;
+}
+/*  +  */
+.upload-img .upload-btn {
+  display: inline-block;
+  width:100rpx;
+  height:100rpx;
+  line-height: 90rpx;
+  text-align: center;
+  font-size: 80rpx;
+  color:#ddd;
+  border:2px dashed #f4f4f4;
+  vertical-align: top;
+}
+
+/* 提交按钮 */
+.submit-btn {
+  background: #e43130;
+  color: #fff;
+  margin: 20rpx 20rpx;
+  margin-top: 70rpx;
+  font-size: 30rpx;
+  padding: .8em 0;
+  text-align: center;
+  border-radius: 6rpx;
+}

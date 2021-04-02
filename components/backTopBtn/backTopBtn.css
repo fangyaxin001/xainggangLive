@@ -1,0 +1,23 @@
+.promo-con {
+    position: fixed;
+    bottom: 200rpx;
+    right: 40rpx;
+}
+.suspension-btn {
+	
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80rpx;
+    height: 80rpx;
+    border-radius: 50%;
+    margin-top: 30rpx;
+	background-color: #FFF5EE
+}
+.suspension-btn image {
+	
+    display: block;
+    width: 80rpx;
+    height: 80rpx;
+}

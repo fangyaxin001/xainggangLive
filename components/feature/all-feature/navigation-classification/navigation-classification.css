@@ -1,0 +1,27 @@
+.fature-cate-item {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  padding: 20rpx 10rpx 30rpx;
+	flex-wrap: wrap;
+}
+.fature-cate-item .item {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fature-cate-item .item image {
+  width: 86rpx;
+  height: 86rpx;
+}
+.fature-cate-item .item text {
+  font-size: 28rpx;
+  margin-top: 20rpx;
+}
+.column-four {
+	width: 25%;
+}
+.column-five {
+	width: 20%;
+}

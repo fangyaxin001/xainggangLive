@@ -1,0 +1,262 @@
+/* images/personalInformation/personalInformation.wxss */
+image {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.personal-information {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background: #f8f8f8;
+	border-top: 1rpx solid #eee;
+}
+
+.head-portrait {
+	position: relative;
+	border-bottom: 2rpx solid #EEEEEE;
+	background: #fff;
+	padding: 1em 0rpx;
+}
+.portrait-box{
+	padding: 0 30rpx;
+	background-color: #FFFFFF
+}
+.head-txt {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 110rpx;
+	font-size: 30rpx;
+}
+
+.head-portrait-right {
+	float: right;
+}
+
+.head-portrait-right .right-arrow {
+	display: inline-block;
+	width: 15rpx;
+	height: 25rpx;
+	vertical-align: middle;
+	margin-left: 25rpx;
+}
+.head-title{
+	height: 100rpx;
+	line-height: 100rpx;
+	text-align: center;
+	border-top: 2rpx solid #EEEEEE;
+	font-size: 32rpx;
+}
+.cancel{
+	text-align: center;
+	height: 100rpx;
+	line-height: 100rpx;
+	color: #47D1D1;
+	font-size: 32rpx;
+	}
+.head-img {
+	display: inline-block;
+	overflow: hidden;
+	width: 130rpx;
+	height: 130rpx;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+
+.head-img>image {
+	display: block;
+	border-radius: 50%;
+}
+
+.persone-info {
+	display: block;
+	background: #fff;
+	margin-bottom: 20rpx;
+	padding: 0 ;
+}
+
+.msg-item {
+	border-bottom: 2rpx solid #EEEEEE;
+	background: #fff;
+	font-size: 28rpx;
+	padding: 1.2em 0;
+}
+
+.msg-item:last-child {
+	border-bottom: 0;
+}
+
+.msg-item-txt {
+	display: inline-block;
+	line-height: 1em;
+}
+
+.msg-item .right-arrow {
+	float: right;
+	margin-left: 25rpx;
+	color: #666666;
+}
+
+.choose-value {
+	display: inline-block;
+	font-size: 28rpx;
+	color: #555;
+	vertical-align: middle;
+	line-height: 1em;
+	text-align: right;
+	padding-right: 26rpx;
+}
+
+.msg-item .right-arrow>image {
+	display: inline-block;
+	vertical-align: middle;
+	width: 15rpx;
+	height: 25rpx;
+	/* padding-top: 8rpx; */
+}
+
+.phone>.phone-num {
+	float: right;
+	color: #999;
+}
+
+.phone-num button {
+	border: 0 !important;
+	background: transparent;
+	outline: none;
+	line-height: 40rpx;
+}
+
+.phone-num button::after {
+	border: 0;
+}
+
+.get-phone-num {
+	font-size: 26rpx;
+	color: #66c3f5;
+}
+
+
+
+
+/* 自定义底部弹框组件 */
+.free-dialog__mask {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+	background: rgba(0, 0, 0, 0.7);
+	display: none;
+}
+
+.free-dialog__container {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 750rpx;
+	background: white;
+	transform: translateY(150%);
+	transition: all 0.4s ease;
+	z-index: 11;
+}
+
+.free-dialog--show .free-dialog__container {
+	transform: translateY(0);
+}
+
+.free-dialog--show .free-dialog__mask {
+	display: block;
+}
+
+/*模态框中的内容*/
+.free-button {
+	display: inline-block;
+	width: 50px;
+	text-align: center;
+	font-size: 20px;
+	color: #707070;
+	margin-bottom: 20px;
+}
+
+.free-dialog-submit {
+	float: right;
+	color: #48c23d;
+}
+
+radio-group {
+	margin: 10rpx 0rpx;
+}
+
+radio-group>label {
+	width: 22.5%;
+	display: inline-block;
+	border: 1px solid #ddd;
+	padding: 10px 0px;
+	margin: 0px 2px 2px;
+}
+
+radio-group label radio {
+	width: 100%;
+	z-index: 3;
+	display: none;
+}
+
+.checked {
+	background: #48c23d;
+	color: #fff;
+}
+
+radio-group label .free-text {
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+}
+
+/* /自定义底部弹框组件 */
+
+/* 上传照片 */
+.station-photo-con {
+	position: absolute;
+	right: 0rpx;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.add-img-icon {
+	display: inline-block;
+	overflow: hidden;
+	width: 130rpx !important;
+	height: 130rpx !important;
+	border-radius: 50%;
+	vertical-align: middle;
+
+}
+
+.addr-btn {
+	flex: 1;
+	background-color: #f39828;
+	box-shadow: 2rpx 4rpx 8rpx #ffddb5;
+	border-radius: 8rpx;
+	text-align: center;
+	padding: 27rpx;
+	color: #fff;
+	font-size: 26rpx;
+}
+
+.confirm {
+	display: block;
+	margin: 0 auto;
+	margin-top: 100rpx;
+	width: 70%;
+	padding: 20rpx 0;
+	font-size: 28rpx;
+	text-align: center;
+	color: #fff;
+	background: #e43130;
+	letter-spacing: 2px;
+	border-radius: 10rpx;
+}

@@ -1,0 +1,132 @@
+page{
+  background: #fff;
+  height: 100%;
+}
+.con{
+margin-top: 50px;
+}
+image {
+  display: block;
+  width: 150rpx;
+  height: 150rpx;
+  margin: auto;
+  margin-bottom: 20%;
+}
+.login-form{
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 20%;
+}
+.authorized-btn {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #47D1D1;
+  color: #fff;
+  border-radius: 50rpx;
+  font-size: 32rpx;
+  padding: 10rpx;
+  margin-top: 80rpx;
+}
+.xieyi{
+	text-align: center;
+	margin-top: 200rpx;
+	
+	}
+	.saml-xieyi{
+		font-size: 23rpx;
+		color: #5279C6;
+	}
+.to-idx-btn{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #eeeeee;
+	color: #333;
+	border-radius: 6rpx;
+	font-size: 30rpx;
+	padding: 10rpx;
+	margin-top: 30rpx;
+}
+.account{
+  display: flex;
+  height: 110rpx;
+  padding: 22rpx 16rpx;
+  box-sizing: border-box;
+  border-bottom: 1px solid #f8f8f8;
+  
+  font-size: 30rpx;
+  align-items: center;
+}
+.account input{
+  padding-left: 20rpx;
+  width:70%;
+}
+.inp-palcehoder{
+  font-size: 26rpx;
+}
+.account input.int-yzm {
+  width: 460rpx;
+}
+.input-btn {
+  width: 152rpx;
+  font-size: 28rpx;
+  color: #47D1D1;
+  width: 164rpx;
+  height: 56rpx;
+  line-height: 56rpx;
+  border-radius: 28rpx;
+  text-align: center;
+}
+.input-item {
+  font-size: 28rpx;
+  color: #EF103C;
+}
+.input-item.getcode {
+  width: 120rpx;
+  text-align: right;
+}
+
+button::after{
+  border: 0 !important;
+}
+.successful {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 36rpx;
+}
+.item {
+	display: block;
+	margin-bottom: 40rpx;
+}
+.error .error-text {
+	display: block;
+	width: 100%;
+	font-size: 28rpx;
+	color: #EF103C;
+  text-align: left;
+  margin-top: 10rpx;
+}
+.error .error-text .warning-icon {
+  display: inline-block;;
+  color: #fff;
+  width: 26rpx;
+  height: 26rpx;
+  line-height: 26rpx;
+  background: #EF103C;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 12rpx;
+  font-size: 22rpx;
+}
+.to-login {
+	font-size: 28rpx;
+	color: #EF103C;
+	display: block;
+	width: 100%;
+	text-align: right;
+}
+.to-login .to-login-text{
+	display: inline-block;
+}

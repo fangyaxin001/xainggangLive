@@ -1,0 +1,99 @@
+/* pages/accountSettings/accountSettings.wxss */
+/* .set-accout {
+  padding: 20rpx 0;
+} */
+/* 清除浮动 */
+.clearfix::after {
+	display: block;
+	content: "";
+	height: 0;
+	visibility: auto;
+	clear: both;
+}
+
+.set-accout-item {
+	padding: 20rpx 30rpx;
+	border-bottom: 1rpx solid #f2f2f2;
+}
+
+.item-tit {
+	display: inline-block;
+	font-size: 30rpx;
+	margin-right: 40rpx;
+	vertical-align: middle;
+}
+
+.send-code {
+	display: inline-block;
+	font-size: 28rpx;
+	width: 178rpx;
+	text-align: center;
+	padding: 8rpx 0;
+	/* border: 1px solid #888; */
+	border-radius: 4rpx;
+	color: #777;
+	background: #eee;
+	box-sizing: border-box;
+}
+
+.item-input {
+	display: inline-block;
+	font-size: 30rpx;
+	vertical-align: middle;
+	width: 72%;
+}
+
+.item-input.valid-input {
+	width: 45%;
+	padding-right: 20rpx;
+	box-sizing: border-box;
+	text-align: left;
+}
+
+.confirm {
+	margin: 100rpx 30rpx;
+	margin-bottom: 30rpx;
+}
+
+.confirm-btn {
+	display: block;
+	padding: 20rpx 0;
+	background: #e43130;
+	border-radius: 8rpx;
+	font-size: 30rpx;
+	color: #fff;
+	text-align: center;
+}
+
+.tips-main {
+	padding: 0 30rpx;
+	font-size: 26rpx;
+	color: #999;
+}
+
+.tips {
+	line-height: 1.5em;
+	text-align: justify;
+}
+
+.userphone {
+	display: inline-block;
+	width: 75%;
+	vertical-align: middle;
+}
+
+.show-num {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 30rpx;
+	color: #3e99d7;
+	line-height: 1em;
+	padding-top: 10rpx;
+}
+
+.get-userphone-btn {
+	float: right;
+	font-size: 25rpx;
+	vertical-align: middle;
+	margin-right: 1em;
+}

@@ -1,0 +1,160 @@
+page{
+  background: #fff;
+  height: 100%;
+}
+.con{
+  margin-top: 50px;
+	padding-bottom: 80px;
+}
+image {
+  display: block;
+  width: 150rpx;
+  height: 150rpx;
+  margin: auto;
+  
+  margin-bottom: 8%;
+}
+.login-form{
+  width: 90%;
+  margin: 0 auto;
+}
+.authorized-btn {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #47D1D1;
+  border-radius: 50rpx;
+  color: #fff;
+  font-size: 32rpx;
+  padding: 10rpx 0;
+  margin-top: 50rpx;
+  
+}
+.to-idx-btn{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #eeeeee;
+	color: #333;
+	border-radius: 6rpx;
+	font-size: 30rpx;
+	padding: 10rpx 0;
+	margin-top: 30rpx;
+}
+.form-title {
+  width: 100%;
+  margin-bottom: 50rpx;
+  font-size: 32rpx;
+  text-align: center;
+  color: #EF103C;
+}
+.item {
+	display: block;
+	
+}
+.account{
+  display: flex;
+  height: 130rpx;
+  border-bottom: 1rpx solid #f8f8f8;
+  padding: 22rpx 16rpx;
+  box-sizing: border-box;
+  font-size: 26rpx;
+  align-items: center;
+}
+.account .input-item {
+  font-size: 30rpx;
+}
+.account input{
+  padding-left: 20rpx;
+  width:75%;
+}
+.inp-palcehoder{
+  font-size: 26rpx;
+}
+.account input.int-yzm {
+  width: 396rpx;
+  padding-right: 10rpx;
+  box-sizing: border-box;
+}
+.input-btn {
+  width: 152rpx;
+  font-size: 26rpx;
+  color: #FFFFFF;
+  background-color:#47D1D1; 
+  width: 164rpx;
+  height: 56rpx;
+  line-height: 56rpx;
+  border-radius: 28rpx;
+  text-align: center;
+}
+
+button::after{
+  border: 0 !important;
+}
+
+/* 找回密码&去注册 */
+.operate {
+	width: 400rpx;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 30rpx;
+	color: #999999;
+	font-size: 30rpx;
+}
+
+
+
+.forgot-passwordEn{
+	text-align: center;
+	flex:2;
+}
+.to-registerEn{
+	text-align: center;
+	flex:2;
+}
+
+/* 错误提示 */
+.error .error-text {
+	display: block;
+	width: 100%;
+	font-size: 28rpx;
+	color: #EF103C;
+  text-align: left;
+  margin-top: 10rpx;
+}
+.error .error-text .warning-icon {
+  display: inline-block;;
+  color: #fff;
+  width: 26rpx;
+  height: 26rpx;
+  line-height: 26rpx;
+  background: #EF103C;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 12rpx;
+  font-size: 22rpx;
+}
+
+/* 更改的样式 */
+.code-login{
+	text-align: right;
+	margin-top: 25rpx;
+	color: #47D1D1;
+	font-size: 28rpx;
+	}
+	.fast-login{
+		margin-top: 130rpx; 
+	}
+	.fast-img{
+		margin-top: 30rpx;
+		margin-bottom: 30rpx;
+		width: 72rpx;
+		height: 72rpx;
+	}
+	.facebook{
+		color: #999999;
+		text-align: center;
+	}
+	

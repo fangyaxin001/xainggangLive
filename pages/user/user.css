@@ -1,0 +1,498 @@
+/* pages/user/user.wxss */
+
+page {
+  background-color: #f7f7f7;
+  padding-bottom: 60rpx;
+}
+
+/* 用户信息 */
+
+/* .userinfo {
+  position: relative;
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  padding: 30rpx 0;
+}
+
+.userinfo .userinfo-avatar {
+  overflow: hidden;
+  display: block;
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  margin: auto;
+}
+
+.userinfo .userinfo-avatar image{
+   width: 160rpx;
+  height: 160rpx;
+}
+
+.userinfo .userinfo-name {
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-top: 20rpx;
+  position: relative;
+} */
+
+.userinfo-name .update-info{
+  position: absolute;
+  top: 0rpx;
+  display: inline-block;
+  margin-left: 20rpx;
+  font-size: 20rpx;
+  padding: 2rpx 10rpx;
+  border-radius: 10rpx;
+  border: 2rpx solid #eee;
+  font-weight: normal;
+}
+
+.binding-phone {
+  position: relative;
+  background: #fff;
+  height: 80rpx;
+  line-height: 80rpx;
+  padding: 0 30rpx;
+  border-top: 2rpx solid #f7f7f7;
+  border-bottom: 2rpx solid #f7f7f7;
+}
+
+.binding-phone .show-tip {
+  font-size: 26rpx;
+}
+
+.binding-phone .gotobinding {
+  border-radius: 8rpx;
+  font-size: 28rpx;
+  color: #EF103C;
+  font-weight: bold;
+}
+
+/*end 用户信息 */
+
+/** 未登录信息 */
+.userinfo-none {
+  display: flex;
+  padding: 50rpx 20rpx;
+  align-items: center;
+  position: relative;
+  
+}
+.member-lev {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20rpx;
+}
+.nick-name{
+	width: 150rpx;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+  font-size: 32rpx;
+  font-weight: 600;
+}
+.level {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10rpx 14rpx;
+  margin-left: 16rpx;
+  box-sizing: border-box;
+  border-radius: 32rpx;
+}
+.level .l-bg {
+  width: 28rpx;
+  height: 28rpx;
+}
+.level .text {
+  color: #7c4733;
+  font-size: 24rpx;
+  font-family: arial;
+  line-height: 1em;
+  margin-left: 8rpx;
+}
+
+.arrow {
+  width: 11rpx;
+  height: 11rpx;
+  border-top: 3rpx solid #686868;
+  border-right: 3rpx solid #686868;
+  transform: rotate(45deg);
+  position: absolute;
+  right: -26rpx;
+  top: 12rpx;
+}
+
+.member-integral {
+  display: flex;
+  background-color: #8FAECC;
+  height: 48rpx; 
+  align-items: center;
+  align-content: center;
+  font-size: 26rpx;
+  position: relative;
+  width: 152rpx;
+  max-width: 180rpx;
+  border-radius: 30rpx;
+  color: white;
+  padding: 5rpx;
+}
+.member-integral image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 10rpx;
+}
+.userinfo-none .default-pic{
+  padding-right:30rpx;
+}
+.userinfo-none .default-pic image{
+  width:140rpx;
+  height:140rpx;
+  border-radius: 50%;
+}
+
+.none-login button {
+  
+}
+
+.none-login button::after {
+  border: 0;
+}
+.none-login .unlogin{
+  font-size:30rpx;
+}
+.none-login .click-login{
+  font-size:26rpx;
+}
+
+.buy-member{
+  display: flex;
+  position: absolute;
+  align-content: center;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #333333;
+  font-size: 24rpx;
+  line-height: 40rpx;
+  padding: 20rpx 26rpx;
+  border-radius: 40rpx 0  0 40rpx;
+  box-shadow: 1rpx 1rpx 2rpx rgb(0, 0, 0);
+}
+.buy-member image{
+  width: 40rpx;
+  height: 40rpx;
+  display: block;
+  margin-right: 10rpx;
+}
+
+/* 订单状态 */
+
+
+/* 钱包数据 */
+.wallet-data {
+  background: #fff;
+  padding: 30rpx 8rpx;
+  margin: 20rpx 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.data-item {
+  position: relative;
+  width: 25%;
+  font-size: 26rpx;
+}
+.data-item:not(:last-child)::after {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  content: '';
+  display: block;
+  width: 1rpx;
+  height: 60%;
+  background: #eee;
+}
+.data-num {
+  font-size: 28rpx;
+  margin-bottom: 12rpx;
+  text-align: center;
+}
+.data-name {
+  text-align: center;
+}
+/* 上标 */
+.dot, .point {
+  color: #EF103C;
+  margin-left: 4rpx;
+}
+/* 点 */
+.point {
+  display: inline-block;
+  height: 10rpx;
+}
+/* 钱包数据 end */
+
+
+.list-cont {
+	position: relative;
+  width: 100%;
+  background: #f7f7f7;
+  border-radius: 30rpx;
+  overflow: hidden;
+  margin-top: -10rpx;
+  box-shadow: 0px -5px 15px  #e8e8e8;
+}
+
+.list-cont .total-order {
+  /* width: 100%; */
+  /* margin-bottom: 30rpx; */
+  background: #fff;
+
+}
+
+.list-cont .total-order .order-tit {
+  display: flex;
+  justify-content: space-between;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 30rpx;
+  border-bottom:1px solid #f7f7f7;
+  padding: 0 30rpx;
+}
+
+.list-cont .total-order .order-tit .checkmore {
+  font-size: 24rpx;
+  color: #80848f;
+  display: flex;
+ 
+  align-items: center;
+}
+
+.list-cont .total-order .procedure {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25rpx;
+  height: 160rpx;
+}
+
+.list-cont .total-order .procedure .items {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+	max-width: 20%;
+	text-align: center;
+}
+/* .list-cont .total-order .procedure .items.refund-icon > image {
+  width: 55rpx;
+  height: 55rpx;
+} */
+
+.list-cont .total-order .procedure .items image {
+  width: 50rpx;
+  height: 50rpx;
+  margin-bottom: 15rpx;
+}
+
+.list-cont .total-order .procedure .items .num-badge {
+  position: absolute;
+  top: -15rpx;
+  right: -12rpx;
+  color: #EF103C;
+  border: 3rpx solid #EF103C;
+  border-radius: 50rpx;
+  background: #fff;
+  min-width: 30rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  text-align: center;
+  padding: 2rpx;
+  display: block;
+}
+
+.list-cont .total-order .procedure .items .after-sale-num-badge {
+	right: 4rpx;
+}
+
+/* end 订单状态 */
+
+/* 列表项 */
+
+.list-cont .my-menu {
+  /* width: 100%; */
+  background-color: #fff;
+  margin-top:20rpx;
+}
+
+.list-cont .my-menu .memu-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100rpx;
+  border-bottom: 2rpx solid #f7f7f7;
+  padding:0 30rpx;
+}
+
+.list-cont .my-menu .memu-item:nth-child(1) {
+  border-top: 2rpx solid #f7f7f7;
+}
+
+.list-cont .my-menu .memu-item:last-child {
+  border-bottom: none;
+}
+
+.list-cont .my-menu .memu-item text {
+  font-size: 30rpx;
+}
+.list-cont .my-menu .memu-item button {
+  font-size: 30rpx;
+  background: transparent;
+  color: #000;
+  line-height: 1em;
+  padding: 0;
+  margin: 0;
+}
+.list-cont .my-menu .memu-item button::after {
+  border: none!important;
+}
+.list-cont .my-menu .memu-item image{
+  width:50rpx;
+  height:50rpx;
+  margin-right:20rpx;
+
+}
+.list-cont .my-menu .memu-item .i-name{
+  display: flex;
+  align-items: center;
+}
+
+/* end 列表项 */
+
+/* 箭头 */
+
+.arrowhead {
+  width: 15rpx;
+  height: 15rpx;
+  border-top: 2rpx solid #999;
+  border-right: 2rpx solid #999;
+  transform: rotate(45deg);
+  margin-left: 10rpx;
+}
+
+
+/* 商品收藏消息等 */
+.prod-col{
+  margin-top:20rpx;
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding:30rpx 0 10rpx 0;
+  font-size: 12px;
+}
+.prod-col .col-item{
+  text-align: center;
+}
+.prod-col .col-item .num{
+  font-size: 16px;
+    font-weight: 700;
+    color: #3a86b9;
+}
+
+.prod-col .col-item .tit{
+  line-height: 34px;
+}
+
+.log-out{
+	padding:20rpx;
+	text-align: center;
+	margin-top:20rpx;
+}
+.log-out-n{
+	font-size: 30rpx;
+	margin: auto;
+	width:200rpx;
+	padding:20rpx;
+	border-radius: 10rpx;
+	background: #EF103C;
+	color:#ffffff;
+}
+button.memu-btn.memu-item {
+  background-color: #fff;
+}
+button.memu-btn.memu-item:after {
+  border: 0;
+}
+
+
+/* 新增样式 */
+.prens{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	text-align: center;
+	padding: 10rpx;
+	}
+	/* 省钱月卡 */
+	.save-money{ 
+		position: relative;
+		width: 95%;
+		margin: auto;
+		height: 140rpx;
+		margin-top: 30rpx;
+	}
+	.save-bc{
+		width: 100%;
+		position: absolute;
+		height: 140rpx;
+		
+	}
+	.intitle{
+		width: 100%;
+		height: 140rpx;
+		position: absolute;
+		display: flex;
+         align-items: center;	
+	 justify-content: space-around;
+	}
+	.intitle-flex{
+		display: flex;
+	}
+	.Immediately-opened{
+		background-color: #B17F43;
+		color: #FFFFFF;
+		font-size: 24rpx;
+		border-radius: 30rpx;
+		text-align: center;
+		padding:15rpx 25rpx;
+	}
+	.essential-tool{
+		width: 95%;
+		margin: auto;
+		background-color: #FFFFFF;
+		margin-top: 30rpx;
+		overflow: hidden;
+		border-radius: 30rpx;
+	}
+	.tool-list{
+		display: flex;
+		margin-top: 30rpx;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+	.tool-list-box{
+		text-align: center;
+		width: 160rpx;
+		height:120rpx;
+		font-size: 24rpx;
+	}
+	.tool-list-box image{
+		width: 56rpx;
+		height: 56rpx;
+	}
+	

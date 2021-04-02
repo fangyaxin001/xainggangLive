@@ -1,0 +1,713 @@
+{
+	
+		"easycom": {
+			"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+		},
+	
+	"pages": [{
+			"path": "pages/index/index"
+			
+		},
+		{
+			"path": "pages/user/user",
+				"style": {
+							"navigationStyle": "custom"
+						}
+			
+		},
+		{
+			"path": "pages/liveBroadcast/liveBroadcast",
+			"style": {
+				"navigationBarBackgroundColor": "#fe1b5e"
+			}
+		},
+		{
+			"path": "pages/basket/basket",
+			"style": {
+				"backgroundTextStyle": "light"
+			}
+		},
+		{
+			"path": "pages/category/category",
+			"style": {
+				"backgroundTextStyle": "light"
+			}
+		},
+		{
+			"path": "pages/search-page/search-page",
+			"style": {
+				"navigationStyle": "custom" 
+			}
+		},
+		{
+		    "path" : "pages/thirdLogin/thirdLogin",
+			"style": {
+				"navigationBarTitleText": "第三方登录",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/delivery-address/delivery-address",
+			"style": {
+				"navigationStyle": "custom" 
+			}
+		},
+		{
+			"path": "pages/editAddress/editAddress",
+			"style": {
+				"navigationStyle": "custom" 
+			}
+		},
+		{
+			"path": "pages/orderList/orderList",
+					"style" :
+					{
+					  	"backgroundTextStyle": "light"
+					}
+		},
+		{
+			"path": "pages/order-detail/order-detail",
+					"style" :
+					{
+					  	 "navigationStyle": "custom"
+					}
+		},
+		{
+			"path": "pages/submit-order/submit-order",
+					"style" :
+					{
+					   "navigationStyle": "custom"
+					}
+		},
+		{
+			"path": "pages/binding-phone/binding-phone",
+			"style": {
+				"backgroundTextStyle": "light",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/pay-result/pay-result",
+			"style": {
+				"backgroundTextStyle": "light"
+			}
+		},
+		{
+			"path": "pages/search-prod-show/search-prod-show",
+			"style": {
+				"backgroundTextStyle": "light"
+			}
+		},
+		{
+			"path": "pages/prod/prod"
+		},
+		{
+			"path": "pages/login/login"
+		},
+		{
+			"path": "pages/prod-classify/prod-classify",
+			"style": {
+					"navigationStyle": "custom" 
+					  }
+		},
+		{
+			"path": "pages/recent-news/recent-news",
+			"style": {
+				"backgroundTextStyle": "light"
+			}
+		},
+		{
+			"path": "pages/news-detail/news-detail",
+			"style": {
+				"backgroundTextStyle": "light",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#fafafa"
+			}
+		},
+		{
+			"path": "pages/claimer/claimer",
+			"style": {
+				"component": true
+			}
+		},
+		{
+			"path": "pages/prodComm/prodComm"
+		},
+		{
+			"path": "pages/applyRefund/applyRefund",
+			"style": {
+				"backgroundTextStyle": "light"
+			}
+		},
+		{
+			"path": "pages/afterSales/afterSales",
+			"style": {
+				"backgroundTextStyle": "light"
+			}
+		},
+		{
+			"path": "pages/DetailsOfRefund/DetailsOfRefund",
+			"style": {
+				"backgroundTextStyle": "light"
+			}
+		},
+		{
+			"path": "pages/chooseRefundWay/chooseRefundWay",
+			"style": {
+				"backgroundTextStyle": "light"
+			}
+		},
+		{
+			"path": "pages/writeReturnLogistics/writeReturnLogistics",
+			"style": {
+				"backgroundTextStyle": "light"
+			}
+		},
+		{
+			"path": "pages/shopCollect/shopCollect"
+		},
+		{
+			"path": "pages/accountSettings/accountSettings",
+			"navigationStyle": "custom" ,// 隐藏系统导航栏
+						"navigationBarTextStyle": "white"
+		},
+		{
+			"path": "pages/sub-category/sub-category",
+			"style": {
+					"navigationStyle": "custom" 
+					  }
+		},
+		{
+			"path": "pages/alterShopPassword/alterShopPassword",
+			"style": {
+				"backgroundTextStyle": "light"
+			}
+		},
+		{
+			"path": "pages/accountLogin/accountLogin"
+		},
+		{
+			"path": "pages/register/register"
+		
+		},
+		{
+			"path": "pages/payWay/payWay"
+		},
+		{
+			"path": "pages/logisticsInfo/logisticsInfo"
+		},
+		{
+			"path": "pages/searchShopShow/searchShopShow",
+			"style": {
+					"navigationStyle": "custom" 
+					  }
+		},
+		{
+			"path": "pages/selectStore/selectStore"
+		},
+		{
+			"path": "pages/stationOrderList/stationOrderList"
+		},
+		{
+			"path": "pages/paySuccess/paySuccess"
+		},
+		{
+			"path": "pages/deliveryCertificate/deliveryCertificate"
+		},
+		{
+			"path": "pages/selfMentionOrder/selfMentionOrder"
+		},
+		{
+			"path": "pages/personalInformation/personalInformation",
+			"style": {
+				 "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/chat/chat"
+		},
+		{
+			"path": "pages/chat/chatIm",
+			"style": {
+				 "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/myWallet/myWallet",
+			"style" :
+			{
+			   "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/rechargeBalance/rechargeBalance",
+			"style": {
+				"backgroundTextStyle": "light"
+			}
+		}, 
+		{
+			"path": "pages/feature-index/feature-index0",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}
+      
+        ,{
+            "path" : "pages/footprint/footprint",
+            "style" :                                                                                    
+            {
+               "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my-message/my-message",
+            "style" :                                                                                    
+            {
+               	"navigationStyle": "custom" 
+            }
+            
+        }
+        ,{
+            "path" : "pages/my-message/my-message-platform/my-message-platform",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my-message/my-message-oreder/my-message-oreder",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my-message/my-message-platform/my-message-detial",
+            "style" :                                                                                    
+            {
+               "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "packageMemberIntegral/pages/buyVip/pay-order-vip/pay-order-vip",
+            "style" :
+            {
+               "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/apply-merchant/apply-merchant",
+            "style" :
+            {
+               "navigationStyle": "custom"
+            }
+        }
+        ,{
+            "path" : "pages/sunmit-succeed/sunmit-succeed",
+           "style" :
+           {
+              "navigationStyle": "custom"
+           }
+            
+        }
+        ,{
+            "path" : "pages/apply-merchant/explain/explain",
+           "style" :
+           {
+              "navigationStyle": "custom"
+           }
+            
+        }
+        ,{
+            "path" : "pages/setting/setting",
+           "style": {
+           			"navigationStyle": "custom"
+           		}
+            
+        }
+        ,{
+            "path" : "pages/setting/setting-password/setting-password",
+            "style": {
+            			"navigationStyle": "custom"
+            		}
+            
+        }
+        ,{
+            "path" : "pages/setting/setting-pay-password/setting-pay-password",
+          "style": {
+          			"navigationStyle": "custom"
+          		}
+            
+        }
+        ,{
+            "path" : "pages/setting/setting-phone-password/setting-phone-password",
+           "style": {
+           			"navigationStyle": "custom"
+           		}
+            
+        }
+        ,{
+            "path" : "pages/setting/setting-password/change-old-password/change-old-password",
+           "style": {
+           			"navigationStyle": "custom"
+           		}
+            
+        }
+        ,{
+            "path" : "pages/setting/setting-password/change-phone-password/change-phone-password",
+           "style": {
+           			"navigationStyle": "custom"
+           		}
+            
+        }
+        ,{
+            "path" : "pages/setting/setting-pay-password/changePay-password/changePay-password",
+           "style": {
+           			"navigationStyle": "custom"
+           		}
+            
+        }
+        ,{
+            "path" : "pages/setting/setting-pay-password/changePay-codePassword/changePay-codePassword",
+           "style": {
+           			"navigationStyle": "custom"
+           		}
+            
+        }
+        ,{
+            "path" : "pages/setting/feedback/feedback",
+           "style": {
+           			"navigationStyle": "custom"
+           		}
+            
+        }
+        ,{
+            "path" : "pages/setting/feedback/history-feedback/history-feedback",
+          "style": {
+          			"navigationStyle": "custom"
+          		}
+            
+        }
+        ,{
+            "path" : "pages/setting/About-Us/About-Us",
+           "style": {
+           			"navigationStyle": "custom"
+           		}
+            
+        }
+        ,{
+            "path" : "pages/DetailsOfRefund/send-infor/send-infor",
+            "style" :                                                                                    
+            {
+                 "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/DetailsOfRefund/physical-company/physical-company",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom"
+            }
+            
+        } 
+        ,{
+            "path" : "pages/payWay/payWay-result/payWay-result",
+           "style" :
+           {
+               "navigationStyle": "custom"
+           }
+            
+        }
+        ,{
+            "path" : "pages/index/New-products/New-products",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"subPackages": [
+		// 会员功能分包
+		{
+			"root": "packageMemberIntegral",
+			"pages": [{
+					"path": "pages/buyVip/buyVip",
+					"style" :
+					{
+					   "navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "pages/exchangeDetails/exchangeDetails"
+				},
+				{
+					"path": "pages/memberCenter/memberCenter"
+				},
+				{
+					"path": "pages/convertProdDet/convertProdDet"
+				},
+				{
+					"path": "pages/integralSubmitOrder/integralSubmitOrder"
+				},
+				{
+					"path": "pages/memberIndex/memberIndex"
+				},
+				{
+					"path": "pages/integralDetail/integralDetail",
+					"style" :
+					{
+					   "navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "pages/integralIndex/integralIndex",
+					"style" :
+					{
+					   "navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "pages/luckyDraw/luckyDraw"
+				},
+				{
+					"path": "components/IntegralGoodsList/IntegralGoodsList",
+					"style": {
+						"component": true
+					}
+				},
+				{
+					"path": "components/raffleWheel/raffleWheel",
+					"style": {
+						"component": true
+					}
+				}
+			]
+		},
+		// 分销功能分包
+		{
+			"root": "packageDistribution",
+			"pages": [{
+					"path": "pages/applyDist/applyDist"
+				},
+				{
+					"path": "pages/draw-rule/draw-rule"
+				},
+				{
+					"path": "pages/applyDistCon/applyDistCon"
+				},
+				{
+					"path": "pages/dis-center/dis-center"
+				},
+				{
+					"path": "pages/withdrawal/withdrawal"
+				},
+				{
+					"path": "pages/promotionProd/promotionProd"
+				},
+				{
+					"path": "pages/InvitationCards/InvitationCards"
+				},
+				{
+					"path": "pages/my-users/my-users"
+				},
+				{
+					"path": "pages/promotion-order/promotion-order"
+				},
+				{
+					"path": "pages/income-details/income-details"
+				},
+				{
+					"path": "pages/take-notes/take-notes"
+				},
+				{
+					"path": "pages/salesmanLevel/salesmanLevel"
+				}
+			]
+		},
+		// 店铺分包
+		{
+			"root": "packageShop",
+			"pages": [{
+					"path": "pages/shopPage/shopPage",
+					"style" :
+					{
+					   "navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "pages/shopProds/shopProds"
+				},
+				{
+					"path": "pages/shopCategory/shopCategory"
+				},
+				{
+					"path": "pages/shopSearch/shopSearch"
+				},
+				{
+					"path": "pages/shopSearchResult/shopSearchResult"
+				},
+				{
+					"path": "pages/feature-index/feature-index0"
+				},
+				{
+					"path": "pages/openAShop/openAShop"
+				},
+				{
+					"path": "components/prodListItem/prodListItem",
+					"style": {
+						"component": true
+					}
+				},
+				{
+					"path": "components/shop-tabbar/shop-tabbar",
+					"style": {
+						"component": true
+					}
+				}
+			]
+		},
+		// 商城活动分包: 秒杀/团购/满减折/领券
+		{
+			"root": "packageActivities",
+			"pages": [{
+					"path": "pages/specialDiscount/specialDiscount"
+				},
+				{
+					"path": "pages/discountDetail/discountDetail"
+				},
+				{
+					"path": "pages/aBulkList/aBulkList",
+					"style": {
+						"backgroundTextStyle": "light"
+					}
+				},
+				{
+					"path": "pages/snapUpList/snapUpList",
+					"style": {
+						"backgroundTextStyle": "light"
+					}
+				},
+				{
+					"path": "pages/snapUpDetail/snapUpDetail",
+					"style": {
+						"backgroundTextStyle": "light"
+					}
+				},
+				{
+					"path": "pages/couponCenter/couponCenter",
+					"style": {
+						"navigationBarTextStyle": "white"
+					}
+				},
+				{
+					"path": "pages/confirmOrder/confirmOrder",
+					"style": {
+						"backgroundTextStyle": "light"
+					}
+				},
+				{
+					"path": "pages/groupConfirmOrder/groupConfirmOrder",
+					"style": {
+						"backgroundTextStyle": "light",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path": "pages/spellGroupDetails/spellGroupDetails",
+					"style": {
+						"backgroundTextStyle": "light"
+					}
+				},
+				{
+					"path": "pages/spellMembersDetails/spellMembersDetails",
+					"style": {
+						"backgroundTextStyle": "light"
+					}
+				},
+				{
+					"path": "pages/myCoupon/myCoupon"
+				}
+			]
+		}
+	],
+	"preloadRule": {
+		"pages/index/index": {
+			"network": "all",
+			"packages": [
+				"packageActivities"
+			]
+		},
+		"pages/user/user": {
+			"network": "all",
+			"packages": [
+				"packageDistribution",
+				"packageMemberIntegral",
+				"packageShop"
+			]
+		},
+		"pages/prod/prod": {
+			"network": "all",
+			"packages": [
+				"packageShop"
+			]
+		}
+	},
+	"tabBar": {
+		"selectedColor": "#EF103C",
+		"color": "#333333",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "/static/images/tabbar/homepage.png",
+				"selectedIconPath": "/static/images/tabbar/homepage-sel.png"
+			},
+			{
+				"pagePath": "pages/category/category",
+				"text": "分类",
+				"iconPath": "/static/images/tabbar/category.png",
+				"selectedIconPath": "/static/images/tabbar/category-sel.png"
+			}, 
+			{
+				"pagePath": "pages/liveBroadcast/liveBroadcast",
+				"text": "直播",
+				"iconPath": "/static/images/tabbar/live.png",
+				"selectedIconPath": "/static/images/tabbar/live-sel.png"
+			},
+			
+			{
+				"pagePath": "pages/basket/basket",
+				"text": "购物车",
+				"iconPath": "/static/images/tabbar/basket.png",
+				"selectedIconPath": "/static/images/tabbar/basket-sel.png"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "我的",
+				"iconPath": "/static/images/tabbar/user.png",
+				"selectedIconPath": "/static/images/tabbar/user-sel.png"
+			}
+		]
+	},
+	"permission": {
+		"scope.userLocation": {
+			// "desc": "位置信息"positionInformation
+		}
+	},
+	"globalStyle": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		// "navigationBarTitleText": "亚米多店铺商城",
+		"navigationBarTextStyle": "black"
+	}
+}

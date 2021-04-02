@@ -1,0 +1,103 @@
+/* 店铺收藏 */
+/* pages/shopCollect/shopCollect.wxss */
+/* 清除浮动 */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.shop-collect {
+  position: fixed;
+  width: 100%;
+  background: #f7f7f7;
+  height: 100%;
+  overflow: auto;
+}
+/* 头部固定 */
+.top-fixed {
+  margin-bottom: 80rpx;
+}
+.show-shop-num {
+  box-sizing: border-box;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 20rpx;
+  background: #f7f7f7;
+  font-size: 28rpx;
+}
+.shop-num {
+  float: left;
+}
+.editor {
+  float: right;
+}
+.red {
+  color: #e4393c;
+}
+
+/* 店铺item */
+.shop-item {
+  background: #fff;
+  margin-bottom: 10rpx;
+  padding: 20rpx;
+}
+.logo,
+.shop-name {
+  display: inline-block;
+  vertical-align: middle;
+}
+.logo {
+  width: 220rpx;
+  height: 80rpx;
+  background: #eee;
+}
+.logo > image {
+  width: 100%;
+  height: 100%;
+}
+.shop-name {
+  font-size: 28rpx;
+  max-width: 50%;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  margin: 0 20rpx;
+}
+/* 自营 */
+.self-operate {
+  display: inline-block;
+  font-size: 23rpx;
+  background: #e4393c;
+  color: #fff;
+  padding: 5rpx 7rpx 6rpx 7rpx;
+  border-radius: 5rpx;
+  line-height: 1em;
+}
+
+
+/* 列表为空 */
+.empty {
+  margin-top: 70rpx;
+  text-align: cneter;
+}
+.empty-icon {
+  display: block;
+  width: 80rpx;
+  height: 80rpx;
+  margin: 0 auto;
+  margin-bottom: 20rpx;
+}
+.empty-icon > image {
+  width: 100%;
+  height: 100%;
+}
+.empty-text {
+  font-size: 28rpx;
+  text-align: center;
+  color: #999;
+  line-height: 2em;
+}

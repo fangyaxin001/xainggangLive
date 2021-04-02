@@ -1,0 +1,71 @@
+/* pages/prod-classify/prod-classify.wxss */
+
+page {
+  background: #f4f4f4;
+}
+.nav-bar{
+	width: 95%;
+	text-align: right;
+}
+.checkAll{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	padding: 20rpx 30rpx;
+	background-color: #F7F7F7
+	}
+	.deletAll{
+		width: 200rpx;
+		height: 72rpx;
+		text-align: center;
+		line-height: 72rpx;
+		background-color: #A2A2A2;
+		border-radius: 50rpx;
+		color: white;
+	}
+.tit-background {
+  width: 100%;
+  height: 20rpx;
+  background: #f4f4f4;
+}
+
+.coupon-condition {
+  padding: 20rpx 20rpx 0;
+  font-size: 24rpx;
+}
+
+/* 加载完成 */
+.loadall {
+  margin: 20rpx 0;
+  line-height: 2em;
+  font-size: 28rpx;
+  color: #aaa;
+  text-align: center;
+}
+
+
+/* 列表为空 */
+.empty {
+  margin-top: 100rpx;
+  text-align: cneter;
+}
+.empty-icon {
+  display: block;
+  width: 80rpx;
+  height: 80rpx;
+  margin: 0 auto;
+  margin-bottom: 20rpx;
+}
+.empty-icon > image {
+  width: 100%;
+  height: 100%;
+}
+.empty-text {
+  font-size: 28rpx;
+  text-align: center;
+  color: #999;
+  line-height: 2em;
+}

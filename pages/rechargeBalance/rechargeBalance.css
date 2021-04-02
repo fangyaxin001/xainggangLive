@@ -1,0 +1,216 @@
+/* 轮播图 */
+swiper {
+  width: 100%;
+  height: 400rpx;
+  overflow: hidden;
+}
+.banner-item {
+  box-sizing: border-box;
+}
+.banner-item .img-box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 0rpx 30rpx;
+  background: linear-gradient(180deg, #191129 30%, #FFFFFF 100%);
+  
+}
+.banner-item .img-box image.banner {
+  width: 100%;
+  height: 100%;
+  border-radius: 8rpx;
+  box-shadow: 0 4px 10px 0 rgba(83, 83, 83, 0.288);
+}
+.slide-image{ 
+  width: 100%;
+  height: 100%;
+  border-radius: 4rpx;
+  border-radius: 14rpx;
+}
+.quiet { 
+  transform: scale(0.8333333);
+  transition: all 0.2s ease-in 0s;
+}
+.active { 
+  transform: none;
+  transition: all 0.2s ease-in 0s;
+}
+.swiper-slide-active{
+  height: 460rpx!important;
+  transition: all .1s;
+}
+.swiper-slide-scaleY{
+  height: 420rpx!important;
+  margin-top: 20rpx;
+}
+
+.item-content {
+  position: absolute;
+  top: 16rpx;
+  left: 0;
+  width: 90%;
+  height: 90%;
+  margin-left: 60rpx;
+  padding: 80rpx 60rpx;
+  box-sizing: border-box;
+  /* background: rgba(83, 83, 83, 0.288); */
+}
+.item-content .lt {
+  display: inline-block;
+}
+.item-content .lt .amount {
+  font-size: 40rpx;
+   color: #FFFFFF;
+   
+}
+.w-num {
+	margin-top: 30rpx;
+	display: flex;
+  align-items: center;
+  font-size: 32rpx;
+}
+.item-content .lt .gifts {
+  margin-top: 10rpx;
+  line-height: 1.5em;
+  font-size: 30rpx;
+}
+
+.dots{ 
+  display: flex; 
+  justify-content: space-between;
+  padding: 30rpx 70rpx;
+   box-sizing: border-box;
+}
+.scroll::-webkit-scrollbar {
+  display:none
+}
+.Flexible {
+  justify-content: center;
+}
+.scroll {
+  /* justify-content: space-between; */
+	justify-content: flex-start;
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin: 0 16rpx;
+}
+.dots .dot-item {
+  font-size: 28rpx;
+  color: #999;
+  margin: 0 16rpx;
+}
+.dots.Flexible .dot-item:first-child {
+  margin-left: 0;
+}
+.dot-txt {
+  margin-bottom: 6rpx;
+	word-break: keep-all;
+}
+.dots .dot{
+  width: 80%;
+  height: 5rpx;
+  background: transparent;
+  margin: 0 auto;
+  /* transition: all .3s; */
+}
+.dots .dot.active{
+  width: 50%;
+  height: 6rpx;
+ background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #47D1D1 100%);
+  border-radius: 50rpx;
+}
+/* 轮播图 end */
+
+/* .pay {
+  padding: 30rpx 20rpx;
+}
+.pay .payment-txt {
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}
+.select-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.payment {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20rpx 0;
+  border-bottom: 1px solid #f7f7f7;
+  font-size: 30rpx;
+}
+.payment:last-child {
+  border-bottom: 0;
+}
+.payment image {
+  display: block;
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 20rpx;
+} */
+
+.ways {
+  padding: 0 30rpx;
+}
+
+.ways .payment-txt {
+  font-size: 30rpx;
+  font-weight: bold;
+  border-bottom: 1rpx solid #EEEEEE;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+
+.ways image {
+	width: 100%;
+	height: 100%;
+}
+
+.ways .item {
+	display: flex;
+	align-items: center;
+	padding: 20rpx 0;
+	height: 100rpx;
+}
+
+.ways .item .pay-name {
+	flex: 1;
+	display: flex;
+	align-items: center;
+}
+
+.ways .item .pay-name .img {
+	width: 44rpx;
+	height: 44rpx;
+	font-size: 0;
+}
+
+.ways .item .pay-name .name {
+	font-size: 24rpx;
+	margin-left: 20rpx;
+}
+
+/* 支付按钮 */
+.btn-box {
+  display: block;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  margin-top: 30rpx;
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+.btn-box .btn {
+  width: 100%;
+  padding: 24rpx 0;
+  background: #47D1D1;
+  color: #fff;
+  text-align: center;
+  font-size: 30rpx;
+  border-radius: 50rpx;
+}

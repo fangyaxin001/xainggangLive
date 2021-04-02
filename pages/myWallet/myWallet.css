@@ -1,0 +1,142 @@
+/* 余额 */
+.wallet-info {
+  background: linear-gradient(180deg, #191129 30%, #F7F7F7 100%);
+  padding: 50rpx 20rpx;
+  margin-bottom: 10rpx;
+  
+}
+.wallet-info-img{
+	width: 95%;
+	height: 367.83rpx;
+	margin:auto;
+	background-image: url(../../static/images/proneler/vip-img.png);
+	background-repeat: no-repeat;
+	background-size:100% 100%; 
+	background-position:100% 100%;
+	z-index: 99;
+	overflow: hidden;
+}
+.wallet-info .w-banner {
+  margin-top: 80rpx;
+  margin-left: 80rpx;
+  font-size: 28rpx;
+  line-height: 1.5em;
+  color: #fff;
+}
+.w-tit{
+	font-size: 40rpx;
+}
+.itemstyle{
+	color: #FA2033;
+}
+.wallet-info .w-banner .w-num {
+	margin-top: 30rpx;
+	display: flex;
+  align-items: center;
+  font-size: 32rpx;
+}
+.recharge-btn {
+	width: 200rpx;
+  text-align: center;
+   border-radius: 50rpx;
+    padding: 10rpx 40rpx; 
+	color: #fff;
+	background: #9D9EA5;
+	margin-left: 70rpx;
+	margin-top: 60rpx;
+}
+
+.recharge-btn .btn {
+  display: inline-block;
+  font-size: 30rpx;
+  /* border: 1px solid rgba(0,0,0,.2); */
+  /* background: linear-gradient(#fc7373, #b41515); */
+
+
+}
+
+/* 明细 */
+.wallet-detail {
+  padding:0 30rpx;
+}
+.wallet-detail .det-tit {
+  font-size: 32rpx;
+  color: #333333;
+  font-weight: bold;
+}
+.det-list {
+	margin: auto;
+	background-color: #FFFFFF;
+	padding: 0rpx 20rpx ;
+	margin-top: 30rpx;
+	border-radius: 20rpx;
+}
+.det-list .det-list-item{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 120rpx;
+	border-bottom: 2rpx solid #F7F7F7;
+	
+}
+.det-list .det-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30rpx 0;
+}
+.det-item:not(:last-child) {
+  border-bottom: 1px solid #f9f9f9;
+}
+.det-item .det-lt {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.det-lt .banner-icon {
+  display: block;
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 16rpx;
+}
+.det-lt .det-content {
+  font-size: 28rpx;
+  line-height: 1.5em;
+}
+.det-lt .det-content .date {
+  color: #bbb;
+  font-size: 24rpx;
+  line-height: 1.5em;
+  padding-top: 8rpx;
+}
+.det-item .det-rt {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
+}
+.red {
+  color: #e43130;
+}
+.gray {
+  color: gray;
+}
+
+/* 空 */
+.list-empty {
+  display: block;
+  margin: 0 auto;
+  margin-top: 60rpx;
+  font-size: 28rpx;
+  color: #ccc;
+  line-height: 2em;
+  text-align: center;
+}
+
+/* 加载完成 */
+.all-load {
+  display: block;
+  font-size: 28rpx;
+  color: #ccc;
+  margin-bottom: 40rpx;
+  text-align: center;
+}

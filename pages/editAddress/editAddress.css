@@ -1,0 +1,268 @@
+/* pages/editAddress/editAddress.wxss */
+
+page {
+  background: #fff;
+}
+
+/* input列表 */
+.lable{
+	display: flex;
+}
+.lable-list{
+	display: flex;
+	
+}
+.lable-list view{
+	padding: 0 15rpx;
+	border: 2rpx solid #E5E5E5;
+	margin-right: 15rpx;
+	border-radius: 10rpx;
+	}
+	.lable-show{
+		background: linear-gradient(131deg, #FF6464 0%, #FF6530 100%);
+		color: #FFFFFF;
+		border: none;
+	}
+	.textarea-box{
+		background-color: #F6F6F6;
+		margin-top: 20rpx;
+		padding: 20rpx;
+		
+	}
+	.tianxie{
+		width: 130rpx;height: 56rpx; border-radius: 36rpx; background-color: #47D1D1;
+		text-align: center;
+		line-height: 56rpx;
+		color: #FFFFFF;
+		font-size: 24rpx;
+	}
+	.set-static-city{ 
+		background-color: #FFFFFF;
+		padding: 30rpx 0;
+		display: flex;
+		justify-content: space-between;
+	}
+	.fixed-input{
+		z-index: 999999999;
+		background-color: #FFFFFF;
+		width: 100%;
+		position: fixed;
+		bottom: 0;
+		display: flex;
+		justify-content: space-between;
+		padding: 20rpx  ;
+		box-sizing: border-box;
+	}
+	.add{
+		width: 140rpx;height: 66rpx; border-radius: 36rpx; background-color: #47D1D1;
+		text-align: center;
+		line-height: 66rpx;
+		color: #FFFFFF;
+		font-size: 28rpx;
+	}
+	.mod-top{
+		display: flex;
+		justify-content: space-between;
+		padding: 30rpx 20rpx;
+	}
+	.delca{
+		border: 2rpx solid #333333; border-radius: 50%; padding: 5rpx;
+		width: 45rpx;
+		text-align: center;
+		height: 45rpx;
+		line-height: 33rpx;
+	}
+	.phone-conent{
+		background-color: #EEEEEE;
+		margin-left: 30rpx;
+		width: 200rpx;
+		text-align: center;
+		height: 60rpx;
+		line-height: 60rpx;
+		margin-top: 20rpx;
+	}
+	.phone-list{
+		display: flex;
+		flex-wrap: wrap;
+	}
+.input-box {
+  margin-bottom: 100rpx;
+  background: #fff;
+  padding: 0 20rpx;
+}
+
+.input-box .section {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 30rpx;
+  padding: 30rpx 0;
+  line-height: 48rpx;
+  height: 100%;
+  box-sizing: border-box;
+  border-bottom: 2rpx solid #e5e5e5;
+}
+
+.input-box .section text {
+  width: 20%;
+}
+
+.input-box .section input {
+  width: 70%;
+  padding: 0 20rpx;
+}
+
+.input-box .section picker {
+  width: 70%;
+  padding: 0 30rpx;
+}
+
+.input-box .section .pca {
+  width: 70%;
+  padding: 0 20rpx;
+}
+
+.input-box .section .arrow {
+  width: 28rpx;
+  height: 28rpx;
+}
+.input-box .section .arrow image {
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+}
+.input-box .section .add-icon {
+  width: 40rpx;
+  height: 40rpx;
+  padding-right: 30rpx;
+}
+.input-box .section .addr {
+  width: 460rpx;
+  /* display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; */
+}
+
+/* end input列表 */
+
+/* 功能按钮 */
+
+.btn-box {
+  padding: 5px 0;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.btn-box text {
+  font-size: 30rpx;
+}
+
+.btn-box .clear.btn, .keep.btn {
+  width: 90%;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin: auto;
+  text-align: center;
+  border: 1rpx solid #47D1D1;
+  border-radius: 50rpx;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.btn-box .keep {
+  color: #fff;
+  background-color: #47D1D1;
+}
+
+.btn-box .clear.btn {
+  margin-top: 40rpx;
+  color: #47D1D1;
+}
+
+/* end 功能按钮 */
+
+.infoText {
+  margin-top: 20rpx;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+}
+
+picker-view {
+  background-color: white;
+  padding: 0;
+  width: 100%;
+  height: 380rpx;
+  bottom: 0;
+  position: fixed;
+}
+
+picker-view-column view {
+  vertical-align: middle;
+  font-size: 30rpx;
+  line-height: 30rpx;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animation-element-wrapper {
+  display: flex;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 999;
+}
+
+.animation-element {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 530rpx;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.animation-button {
+  top: 20rpx;
+  width: 290rpx;
+  height: 100rpx;
+  align-items: center;
+}
+
+picker-view text {
+  color: #999;
+  display: inline-flex;
+  position: fixed;
+  margin-top: 20rpx;
+  height: 50rpx;
+  text-align: center;
+  line-height: 50rpx;
+  font-size: 34rpx;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.left-bt {
+  left: 30rpx;
+}
+
+.right-bt {
+  right: 35rpx;
+  top: 20rpx;
+  position: absolute;
+  width: 80rpx !important;
+}
+
+.line {
+  display: block;
+  position: fixed;
+  height: 2rpx;
+  width: 100%;
+  margin-top: 89rpx;
+  background-color: #eee;
+}

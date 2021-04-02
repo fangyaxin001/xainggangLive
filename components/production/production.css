@@ -1,0 +1,88 @@
+@import "../../app.css";
+page {
+  background: #f4f4f4;
+}
+.prod-items {
+	display: flex;
+  background: #fff;
+  padding: 20rpx 30rpx;
+  box-sizing: border-box;
+  margin-top: 2rpx;
+}
+
+.hot-imagecont .hotsaleimg {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 10rpx;
+}
+.prod-items-right{
+	margin-left: 20rpx;
+}
+.collect-price{
+	display: flex;justify-content: space-between;
+	align-items: center;
+	margin-top: 80rpx;
+}
+.prod-title{
+	font-size: 28rpx;
+	color: #333333;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	
+}
+.hot-text .hotprod-text {
+  height: 76rpx;
+  line-height: 38rpx;
+  font-size: 28rpx;
+  display: -webkit-box;
+  word-break: break-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  color: #000;
+}
+
+
+
+.prod-items .hot-text {
+  margin-top: 20rpx;
+}
+
+.prod-items .hot-text .prod-info {
+  font-size: 20rpx;
+  color: #777;
+  margin-top: 8rpx;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+
+.prod-items .hot-text .prod-text-info {
+  position: relative;
+  height: 40rpx;
+  line-height: 40rpx;
+  font-family: Arial;
+  margin-top: 20rpx;
+}
+.collection-row {
+  display: flex;
+  justify-content: space-between;
+}
+.prod-items .hot-text .prod-text-info .price {
+  color: #EF103C;
+}
+.deadline-price{
+  font-size: 22rpx;
+  margin-right: 5rpx;
+}
+
+.collection-btn {
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	margin-left: 20rpx;
+}

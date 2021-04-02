@@ -1,0 +1,97 @@
+page {
+  display: block;
+  min-height: 100%;
+  background-color: #f8f8f9;
+}
+
+.main {
+  padding: 30rpx;
+}
+
+.section {
+  display: flex;
+  margin: 20rpx 0;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+input {
+  padding: 16rpx 32rpx;
+  box-sizing: border-box;
+  height: 100rpx;
+  width: 100%;
+  background: #fff;
+  border: 1rpx solid #ddd;
+  font-size: 32rpx;
+  line-height: 32rpx;
+  border-radius: 6rpx;
+  box-shadow: inset 0 1rpx 2rpx rgba(0, 0, 0, 0.06);
+}
+
+.submit-btn {
+  margin-top:40rpx;
+  width: 100%;
+  font-size: 30rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: center;
+  background: #e43130;
+  border-radius: 6rpx;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08), 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.submit-btn text {
+  color: #fff;
+}
+
+
+/* input列表 */
+.input-box {
+  margin-top: 30rpx;
+  width: 100%;
+  background: #fff;
+}
+
+
+
+.section text {
+  width: 20%;
+}
+
+
+.section picker{
+  width: 70%;
+  padding: 0 30rpx;
+}
+.section .pca{
+   width: 70%;
+ 
+}
+
+.section .arrow {
+  width: 8%;
+  color: #ccc;
+}
+.section .arrow image{
+  width:40rpx;
+  height:40rpx;
+}
+/* end input列表 */
+
+.upload{
+  margin:20rpx 0;
+  height:360rpx;
+  border:3px dashed #ccc;
+  border-radius:10rpx;
+  background:#fff;
+  line-height:360rpx;
+  text-align:center;
+  color: #999;
+}
+.upload image{
+  width:100%;
+  height:100%;
+}
